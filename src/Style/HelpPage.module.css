@@ -1,0 +1,31 @@
+/* custom fonts */
+@font-face {
+  font-family: 'Biryani';
+  src: url('../Fonts/Biryani-Light.ttf');
+}
+
+@font-face {
+  font-family: 'TT Interphases Bold';
+  src: url('../Fonts/TT Interphases Pro Trial Bold.ttf');
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container > div {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container > div:last-child {
+  margin-bottom: 0;
+}

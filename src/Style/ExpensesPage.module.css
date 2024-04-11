@@ -1,0 +1,84 @@
+.expensesPage {
+    padding: 20px;
+    position: relative;
+}
+
+.expensesTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expensesTable th,
+.expensesTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.expensesTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.evenRow {
+    background-color: #f9f9f9;
+}
+
+.oddRow:hover,
+.evenRow:hover {
+    background-color: #f0f0f0;
+}
+
+
+.button {
+    padding: 8px 16px;
+    background-color: #3B5704;
+    color: #F1FED1;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'TT Interphases Bold';
+}
+
+.button:hover {
+    background-color: #c7dfa2;
+    color: #3B5704;
+}
+
+.icon {
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+    color: #3B5704;
+}
+
+.icon svg {
+    width: 32px;
+    height: 32px;
+}
+
+
+.searchInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.optionsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}

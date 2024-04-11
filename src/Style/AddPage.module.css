@@ -1,0 +1,136 @@
+/* custom fonts */
+@font-face {
+<<<<<<< HEAD
+  font-family: 'Biryani';
+  src: url('../Fonts/Biryani-Light.ttf');
+}
+
+@font-face {
+  font-family: 'TT Interphases Bold';
+  src: url('../Fonts/TT Interphases Pro Trial Bold.ttf');
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #3B5704;
+  color: #F1FED1;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'TT Interphases Bold';
+}
+
+.button:hover {
+  background-color: #c7dfa2;
+  color: #3B5704;
+}
+
+h2 {
+=======
+    font-family: 'Biryani';
+    src: url('../Fonts/Biryani-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Bold';
+    src: url('../Fonts/TT Interphases Pro Trial Bold.ttf');
+  }
+  
+
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    background-color: #3B5704;
+    color: #F1FED1;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'TT Interphases Bold';
+  }
+  
+  .button:hover {
+    background-color: #c7dfa2;
+    color: #3B5704;
+  }
+  
+  h2 {
+>>>>>>> d406a58b3958094ae805136d97af8ece818ee984
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #3B5704;
+<<<<<<< HEAD
+}
+
+.updateButtonsContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.updateButtonsContainer button {
+  margin-right: 10px; 
+}
+=======
+  }
+>>>>>>> d406a58b3958094ae805136d97af8ece818ee984

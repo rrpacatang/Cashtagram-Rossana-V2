@@ -1,0 +1,60 @@
+/* custom fonts */
+@font-face {
+    font-family: 'Biryani';
+    src: url('../Fonts/Biryani-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Bold';
+    src: url('../Fonts/TT Interphases Pro Trial Bold.ttf');
+  }
+  
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1fed1;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3b5704;
+    font-size: 18px;
+    font-family: 'TT Interphases Bold';
+  }
+  
+  /* navbar */
+  .navbar {
+    background-color: #c7dfa2; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    min-height: 70px;
+  }
+  
+  /* ul */
+  .navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    background-color: transparent; /* Ensure background is transparent */
+  }
+  
+  /* media queries */
+  
+  @media screen and (max-width: 780px) {
+    /* Your existing media query styles */
+  }
+  
